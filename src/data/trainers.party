@@ -15841,21 +15841,33 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Confuse Ray
 
 === TRAINER_DARIUS ===
-Name: DARIUS
-Class: Bird Keeper
-Pic: Bird Keeper
+Name: HAVEN
+Class: Hex Maniac
+Pic: Hex Maniac
 Gender: Male
 Music: Cool
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
 
-Tropius
-Level: 30
+Gengar
+Level: 65
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Shadow Ball
+- Sludge Bomb
+- Drain Punch
+- Moonblast
+
+Qwilfish
+Level: 65
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Toxic
+- Poison Jab
+- Waterfall
+- Explosion
 
 === TRAINER_STEVEN ===
-Name: STEVEN
-Class: Rival
+Name: KRADI NEO
+Class: Rival 
 Pic: Steven
 Gender: Male
 Music: Male
@@ -15863,24 +15875,24 @@ Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Skarmory
-Level: 77
+Qwilfish
+Level: 60
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Toxic
-- Aerial Ace
-- Spikes
-- Steel Wing
+- Poison Sting
+- Waterfall
+- Pin Missile
 
-Claydol
-Level: 75
+Delcatty
+Level: 61
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Reflect
-- Light Screen
-- Ancient Power
-- Earthquake
+- Double Slap
+- Sing
+- Growl
+- Attract
 
 Aggron
-Level: 76
+Level: 62
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder
 - Earthquake
@@ -15888,28 +15900,28 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dragon Claw
 
 Cradily
-Level: 76
+Level: 63
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Giga Drain
 - Ancient Power
 - Ingrain
 - Confuse Ray
 
-Armaldo
-Level: 76
+Altaria
+Level: 63
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Water Pulse
-- Ancient Power
-- Aerial Ace
-- Slash
-
-Metagross @ Sitrus Berry
-Level: 78
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Gust
+- Dragon Dance
+- Perish Song
 - Earthquake
-- Psychic
-- Meteor Mash
-- Shadow Ball
+
+Cradily
+Level: 65
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Recover
+- Ancient Power
+- Giga Drain
+- Stealth Rock
 
 === TRAINER_ANABEL ===
 Name: ANABEL

@@ -1157,3 +1157,25 @@ EventScript_VsSeekerChargingDone::
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
 	.include "data/scripts/dexnav.inc"
+
+	.include "data/maps/DELTARUNE/scripts.inc"
+
+	.include "data/maps/shelterowl/scripts.inc"
+
+	.include "data/maps/littleconnect/scripts.inc"
+
+	.include "data/maps/deltashelter1/scripts.inc"
+
+	.include "data/maps/deltalakeconnect/scripts.inc"
+
+	.include "data/maps/lonklorddarkworld/scripts.inc"
+
+	.include "data/maps/DELTALAKE/scripts.inc"
+
+	.include "data/maps/fakeimao/scripts.inc"
+
+	.include "data/maps/LAAO/scripts.inc"
+
+	.include "data/maps/shelter/scripts.inc"
+
+	.include "data/maps/AMONGUSWELL/scripts.inc"

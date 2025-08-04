@@ -1,0 +1,17 @@
+raw `
+shelterowl_MapScripts::
+	.byte 0
+
+shelterowl_EventScript_YouSavedBirch::
+	msgbox shelterowl_Text_GET, MSGBOX_DEFAULT
+	call EverGrandeCity_HallOfFame_EventScript_SetGameClearFlags
+	checkplayergender
+	goto_if_eq VAR_RESULT, MALE, EverGrandeCity_HallOfFame_EventScript_GameClearMale
+	goto_if_eq VAR_RESULT, FEMALE, EverGrandeCity_HallOfFame_EventScript_GameClearFemale
+	end
+
+shelterowl_Text_GET::
+	.string "YOU FIND IT.\n"
+	.string "THE ONE PIECE\l"
+	.string "IS REAL!$"
+`

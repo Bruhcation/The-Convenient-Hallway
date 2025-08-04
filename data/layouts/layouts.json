@@ -97,7 +97,7 @@
       "width": 20,
       "height": 20,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/LittlerootTown/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown/map.bin"
     },
@@ -4410,6 +4410,116 @@
       "secondary_tileset": "gTileset_MysteryEventsHouse",
       "border_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/map.bin"
+    },
+    {
+      "id": "LAYOUT_DELTARUNE",
+      "name": "DELTARUNE_Layout",
+      "width": 50,
+      "height": 66,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lilycove",
+      "border_filepath": "data/layouts/DELTARUNE/border.bin",
+      "blockdata_filepath": "data/layouts/DELTARUNE/map.bin"
+    },
+    {
+      "id": "LAYOUT_SHELTEROWL",
+      "name": "shelterowl_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/shelterowl/border.bin",
+      "blockdata_filepath": "data/layouts/shelterowl/map.bin"
+    },
+    {
+      "id": "LAYOUT_LITTLECONNECT",
+      "name": "littleconnect_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lilycove",
+      "border_filepath": "data/layouts/littleconnect/border.bin",
+      "blockdata_filepath": "data/layouts/littleconnect/map.bin"
+    },
+    {
+      "id": "LAYOUT_DELTASHELTER1",
+      "name": "deltashelter1_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/deltashelter1/border.bin",
+      "blockdata_filepath": "data/layouts/deltashelter1/map.bin"
+    },
+    {
+      "id": "LAYOUT_DELTALAKECONNECT",
+      "name": "deltalakeconnect_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lilycove",
+      "border_filepath": "data/layouts/deltalakeconnect/border.bin",
+      "blockdata_filepath": "data/layouts/deltalakeconnect/map.bin"
+    },
+    {
+      "id": "LAYOUT_LONKLORDDARKWORLD",
+      "name": "lonklorddarkworld_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/lonklorddarkworld/border.bin",
+      "blockdata_filepath": "data/layouts/lonklorddarkworld/map.bin"
+    },
+    {
+      "id": "LAYOUT_DELTALAKE",
+      "name": "DELTALAKE_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lilycove",
+      "border_filepath": "data/layouts/DELTALAKE/border.bin",
+      "blockdata_filepath": "data/layouts/DELTALAKE/map.bin"
+    },
+    {
+      "id": "LAYOUT_FAKEIMAO",
+      "name": "fakeimao_Layout",
+      "width": 50,
+      "height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lilycove",
+      "border_filepath": "data/layouts/fakeimao/border.bin",
+      "blockdata_filepath": "data/layouts/fakeimao/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAAO",
+      "name": "LAAO_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/LAAO/border.bin",
+      "blockdata_filepath": "data/layouts/LAAO/map.bin"
+    },
+    {
+      "id": "LAYOUT_SHELTER",
+      "name": "shelter_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_SecretBase",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/shelter/border.bin",
+      "blockdata_filepath": "data/layouts/shelter/map.bin"
+    },
+    {
+      "id": "LAYOUT_AMONGUSWELL",
+      "name": "AMONGUSWELL_Layout",
+      "width": 3,
+      "height": 10,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/AMONGUSWELL/border.bin",
+      "blockdata_filepath": "data/layouts/AMONGUSWELL/map.bin"
     }
   ]
 }

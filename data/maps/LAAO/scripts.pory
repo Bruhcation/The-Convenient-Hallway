@@ -1,0 +1,4 @@
+raw `
+LAAO_MapScripts::
+	.byte 0
+`

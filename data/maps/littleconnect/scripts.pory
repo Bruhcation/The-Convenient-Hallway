@@ -1,0 +1,4 @@
+raw `
+littleconnect_MapScripts::
+	.byte 0
+`

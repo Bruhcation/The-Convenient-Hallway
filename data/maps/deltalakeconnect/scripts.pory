@@ -1,0 +1,4 @@
+raw `
+deltalakeconnect_MapScripts::
+	.byte 0
+`

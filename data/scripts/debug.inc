@@ -66,8 +66,7 @@ Debug_CheatStart::
 	setflag FLAG_LANDMARK_BATTLE_FRONTIER
 	clearflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
 	clearflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
-	release
-	end
+	return
 
 Debug_FlagsNotSetOverworldConfigMessage::
 	message Debug_FlagsNotSetOverworldConfigMessage_Text
