@@ -4,8 +4,16 @@ DELTARUNE_MapScripts::
 
 DELTARUNE_EventScript_YouSavedBirch::
 	msgbox DELTARUNE_Text_GET, MSGBOX_DEFAULT
+	goto_if_unset FLAG_FAZBAR, DELTARUNE_EventScript_Stuff
 	release
 	end
+
+DELTARUNE_EventScript_Stuff::
+	givemon SPECIES_PIKACHU, 50
+	giveitem ITEM_MASTER_BALL, 50
+	giveitem ITEM_BIG_NUGGET, 10
+	setflag FLAG_FAZBAR
+	return
 
 DELTARUNE_Text_GET::
 	.string "There's this myth about the\n"

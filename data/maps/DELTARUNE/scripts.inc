@@ -11,22 +11,36 @@ DELTARUNE_EventScript_YouSavedBirch::
 # 6 "data/maps/DELTARUNE/scripts.pory"
 	msgbox DELTARUNE_Text_GET, MSGBOX_DEFAULT
 # 7 "data/maps/DELTARUNE/scripts.pory"
-	release
+	goto_if_unset FLAG_FAZBAR, DELTARUNE_EventScript_Stuff
 # 8 "data/maps/DELTARUNE/scripts.pory"
-	end
+	release
 # 9 "data/maps/DELTARUNE/scripts.pory"
-
+	end
 # 10 "data/maps/DELTARUNE/scripts.pory"
-DELTARUNE_Text_GET::
+
 # 11 "data/maps/DELTARUNE/scripts.pory"
-	.string "There's this myth about the\n"
+DELTARUNE_EventScript_Stuff::
 # 12 "data/maps/DELTARUNE/scripts.pory"
-	.string "ONE PIECE.\l"
+	givemon SPECIES_PIKACHU, 50
 # 13 "data/maps/DELTARUNE/scripts.pory"
-	.string "It's apprently in this\l"
+	giveitem ITEM_POKE_BALL, 50
 # 14 "data/maps/DELTARUNE/scripts.pory"
-	.string "Town, But idk where.\l"
+	setflag FLAG_FAZBAR
 # 15 "data/maps/DELTARUNE/scripts.pory"
-	.string "If you want, you can\l"
+	return
 # 16 "data/maps/DELTARUNE/scripts.pory"
+
+# 17 "data/maps/DELTARUNE/scripts.pory"
+DELTARUNE_Text_GET::
+# 18 "data/maps/DELTARUNE/scripts.pory"
+	.string "There's this myth about the\n"
+# 19 "data/maps/DELTARUNE/scripts.pory"
+	.string "ONE PIECE.\l"
+# 20 "data/maps/DELTARUNE/scripts.pory"
+	.string "It's apprently in this\l"
+# 21 "data/maps/DELTARUNE/scripts.pory"
+	.string "Town, But idk where.\l"
+# 22 "data/maps/DELTARUNE/scripts.pory"
+	.string "If you want, you can\l"
+# 23 "data/maps/DELTARUNE/scripts.pory"
 	.string "hunt for it!$"

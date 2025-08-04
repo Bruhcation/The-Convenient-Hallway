@@ -7609,10 +7609,10 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
     [SPECIES_VANILLUXE] =
     {
         .baseHP        = 71,
-        .baseAttack    = 95,
+        .baseAttack    = 75,
         .baseDefense   = 85,
         .baseSpeed     = 79,
-        .baseSpAttack  = 110,
+        .baseSpAttack  = 130,
         .baseSpDefense = 95,
         .types = MON_TYPES(TYPE_ICE),
         .catchRate = 45,
