@@ -9033,29 +9033,29 @@
             "encounter_rate": 1,
             "mons": [
               {
-                "min_level": 20,
-                "max_level": 30,
-                "species": "SPECIES_MARILL"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_AZUMARILL"
               },
               {
-                "min_level": 10,
-                "max_level": 20,
-                "species": "SPECIES_MARILL"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_TENTACRUEL"
               },
               {
-                "min_level": 30,
-                "max_level": 35,
-                "species": "SPECIES_MARILL"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_AZUMARILL"
               },
               {
-                "min_level": 5,
-                "max_level": 10,
-                "species": "SPECIES_MARILL"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_AZUMARILL"
               },
               {
-                "min_level": 5,
-                "max_level": 10,
-                "species": "SPECIES_MARILL"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_AZUMARILL"
               }
             ]
           },
@@ -11524,34 +11524,34 @@
                 "species": "SPECIES_EELEKTROSS"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 50,
+                "max_level": 50,
                 "species": "SPECIES_GRENINJA"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_CHARIZARD"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_TROPIUS"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_CHARIZARD"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_TROPIUS"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_CHARIZARD"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_KECLEON"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_CHARIZARD"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_LEDIAN"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_CHARIZARD"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_KECLEON"
               },
               {
                 "min_level": 50,
@@ -11758,12 +11758,12 @@
               {
                 "min_level": 50,
                 "max_level": 50,
-                "species": "SPECIES_PIDGEY"
+                "species": "SPECIES_PIDGEOT"
               },
               {
                 "min_level": 50,
                 "max_level": 50,
-                "species": "SPECIES_PIDGEY"
+                "species": "SPECIES_PIDGEOT"
               },
               {
                 "min_level": 50,
@@ -11773,7 +11773,7 @@
               {
                 "min_level": 50,
                 "max_level": 50,
-                "species": "SPECIES_RATTATA"
+                "species": "SPECIES_RATICATE"
               },
               {
                 "min_level": 50,
@@ -11932,6 +11932,75 @@
                 "min_level": 50,
                 "max_level": 50,
                 "species": "SPECIES_VIRIZION"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_SHELTER",
+          "base_label": "gshelter",
+          "land_mons": {
+            "encounter_rate": 10,
+            "mons": [
+              {
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_HIPPOWDON"
+              },
+              {
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_HIPPOWDON"
+              },
+              {
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_GOLEM"
+              },
+              {
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_ORTHWORM"
+              },
+              {
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_ONIX"
+              },
+              {
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_ONIX"
+              },
+              {
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_STEELIX"
+              },
+              {
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_STEELIX"
+              },
+              {
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_INCINEROAR"
+              },
+              {
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_LANDORUS_THERIAN"
+              },
+              {
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_INCINEROAR"
+              },
+              {
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_LANDORUS_THERIAN"
               }
             ]
           }

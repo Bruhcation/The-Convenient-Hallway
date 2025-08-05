@@ -2,7 +2,7 @@
   "map_sections": [
     {
       "id": "MAPSEC_LITTLEROOT_TOWN",
-      "name": "LITTLEROOT TOWN",
+      "name": "THE BIG HOUSE",
       "x": 4,
       "y": 11,
       "width": 1,
@@ -490,7 +490,7 @@
     },
     {
       "id": "MAPSEC_ABANDONED_SHIP",
-      "name": "THECAVE",
+      "name": "Deltacove Forest",
       "x": 6,
       "y": 14,
       "width": 1,

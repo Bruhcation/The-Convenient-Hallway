@@ -133,7 +133,7 @@ Route102_EventScript_Rick::
 # 67 "data/maps/Route102/scripts.pory"
 Route102_EventScript_Tiana::
 # 68 "data/maps/Route102/scripts.pory"
-	trainerbattle_single TRAINER_TIANA, Route102_Text_TianaIntro, Route102_Text_TianaDefeated
+	trainerbattle_single TRAINER_STEVEN, Route102_Text_TianaIntro, Route102_Text_TianaDefeated
 # 69 "data/maps/Route102/scripts.pory"
 	msgbox Route102_Text_TianaPostBattle, MSGBOX_AUTOCLOSE
 # 70 "data/maps/Route102/scripts.pory"

@@ -9,7 +9,7 @@ DELTARUNE_EventScript_YouSavedBirch::
 	end
 
 DELTARUNE_EventScript_Stuff::
-	givemon SPECIES_PIKACHU, 50
+	givemon SPECIES_QWILFISH, 60
 	giveitem ITEM_MASTER_BALL, 50
 	giveitem ITEM_BIG_NUGGET, 10
 	setflag FLAG_FAZBAR

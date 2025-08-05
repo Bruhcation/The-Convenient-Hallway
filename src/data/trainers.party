@@ -15867,24 +15867,23 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_STEVEN ===
 Name: KRADI NEO
-Class: Rival 
+Class: Champion 
 Pic: Steven
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Qwilfish
-Level: 60
+Gengar
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Toxic
-- Poison Sting
-- Waterfall
-- Pin Missile
+- Smog
+- Shock Wave
+- Destiny Bond
+- Confuse Ray
 
 Delcatty
-Level: 61
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Double Slap
 - Sing
@@ -15892,23 +15891,23 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Attract
 
 Aggron
-Level: 62
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder
 - Earthquake
 - Solar Beam
-- Dragon Claw
+- Dragon Pulse
 
-Cradily
-Level: 63
+Entei
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Giga Drain
-- Ancient Power
-- Ingrain
-- Confuse Ray
+- Ember
+- Roar
+- Flamethrower
+- Calm Mind
 
 Altaria
-Level: 63
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Gust
 - Dragon Dance
@@ -15916,7 +15915,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 
 Cradily
-Level: 65
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Recover
 - Ancient Power
