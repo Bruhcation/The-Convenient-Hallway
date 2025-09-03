@@ -30,18 +30,18 @@
   ],
   "warp_events": [
     {
-      "x": 3,
-      "y": 8,
-      "elevation": 0,
-      "dest_map": "MAP_OLDALE_TOWN",
-      "dest_warp_id": "0"
-    },
-    {
       "x": 4,
       "y": 8,
       "elevation": 0,
-      "dest_map": "MAP_OLDALE_TOWN",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_SHELTEROWL",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_SHELTEROWL",
+      "dest_warp_id": "5"
     }
   ],
   "coord_events": [],

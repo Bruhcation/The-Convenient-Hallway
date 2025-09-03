@@ -143,7 +143,7 @@ Route102_EventScript_Tiana::
 # 72 "data/maps/Route102/scripts.pory"
 Route102_EventScript_Allen::
 # 73 "data/maps/Route102/scripts.pory"
-	trainerbattle_single TRAINER_ALLEN, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
+	trainerbattle_single TRAINER_DARIUS, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
 # 74 "data/maps/Route102/scripts.pory"
 	msgbox Route102_Text_AllenPostBattle, MSGBOX_AUTOCLOSE
 # 75 "data/maps/Route102/scripts.pory"

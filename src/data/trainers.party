@@ -15844,7 +15844,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Name: HAVEN
 Class: Hex Maniac
 Pic: Hex Maniac
-Gender: Male
+Gender: Female
 Music: Cool
 Double Battle: Yes
 AI: Basic Trainer
@@ -15866,7 +15866,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Explosion
 
 === TRAINER_STEVEN ===
-Name: KRADI NEO
+Name: KRADI 
 Class: Champion 
 Pic: Steven
 Gender: Male

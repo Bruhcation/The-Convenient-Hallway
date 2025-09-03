@@ -39524,6 +39524,8 @@ F_TRAINER_FEMALE |
 #line 15846
         .trainerPic = TRAINER_PIC_HEX_MANIAC,
         .encounterMusic_gender =
+#line 15847
+F_TRAINER_FEMALE | 
 #line 15848
             TRAINER_ENCOUNTER_MUSIC_COOL,
 #line 15849
@@ -39575,7 +39577,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_STEVEN] =
     {
 #line 15869
-        .trainerName = _("KRADI NEO"),
+        .trainerName = _("KRADI"),
 #line 15870
         .trainerClass = TRAINER_CLASS_CHAMPION,
 #line 15871

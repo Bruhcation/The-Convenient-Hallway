@@ -5,7 +5,7 @@
   "music": "MUS_RUSTBORO",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,
-  "weather": "WEATHER_NONE",
+  "weather": "WEATHER_RAIN",
   "map_type": "MAP_TYPE_NONE",
   "allow_cycling": false,
   "allow_escaping": false,
@@ -36,32 +36,6 @@
   ],
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_DEVON_EMPLOYEE",
-      "x": 46,
-      "y": 55,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "DELTARUNE_EventScript_YouSavedBirch",
-      "flag": "0"
-    },
-    {
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
-      "x": 40,
-      "y": 49,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
-    },
-    {
       "graphics_id": "OBJ_EVENT_GFX_TRUCK",
       "x": 1,
       "y": 43,
@@ -86,6 +60,33 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "DELTARUNE_EventScript_YouSavedBirch",
       "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_MAN_3",
+      "x": 2,
+      "y": 9,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "DELTARUNE_EventScript_Naruto",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_MAN",
+      "graphics_id": "OBJ_EVENT_GFX_MAN_2",
+      "x": 36,
+      "y": 58,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "DELTARUNE_EventScript_Guard",
+      "flag": "FLAG_GUARD"
     }
   ],
   "warp_events": [
@@ -116,6 +117,27 @@
       "elevation": 0,
       "dest_map": "MAP_FALLARBOR_TOWN_MART",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 44,
+      "y": 22,
+      "elevation": 0,
+      "dest_map": "MAP_AMONGUSWELL",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 43,
+      "y": 22,
+      "elevation": 0,
+      "dest_map": "MAP_AMONGUSWELL",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 45,
+      "y": 22,
+      "elevation": 0,
+      "dest_map": "MAP_AMONGUSWELL",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [],
@@ -126,7 +148,215 @@
       "y": 55,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "DELTARUNE_EventScript_Man"
+    },
+    {
+      "type": "sign",
+      "x": 17,
+      "y": 50,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
+    },
+    {
+      "type": "sign",
+      "x": 9,
+      "y": 40,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
+    },
+    {
+      "type": "sign",
+      "x": 5,
+      "y": 26,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
+    },
+    {
+      "type": "sign",
+      "x": 20,
+      "y": 5,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
+    },
+    {
+      "type": "sign",
+      "x": 27,
+      "y": 5,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
+    },
+    {
+      "type": "sign",
+      "x": 34,
+      "y": 6,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
+    },
+    {
+      "type": "sign",
+      "x": 45,
+      "y": 7,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
+    },
+    {
+      "type": "sign",
+      "x": 47,
+      "y": 24,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
+    },
+    {
+      "type": "sign",
+      "x": 41,
+      "y": 24,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
+    },
+    {
+      "type": "sign",
+      "x": 38,
+      "y": 24,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
+    },
+    {
+      "type": "sign",
+      "x": 31,
+      "y": 24,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
+    },
+    {
+      "type": "sign",
+      "x": 45,
+      "y": 41,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
+    },
+    {
+      "type": "sign",
+      "x": 27,
+      "y": 50,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
+    },
+    {
+      "type": "sign",
+      "x": 5,
+      "y": 6,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
+    },
+    {
+      "type": "sign",
+      "x": 27,
+      "y": 41,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
+    },
+    {
+      "type": "sign",
+      "x": 28,
+      "y": 42,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
+    },
+    {
+      "type": "sign",
+      "x": 16,
+      "y": 27,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
+    },
+    {
+      "type": "sign",
+      "x": 15,
+      "y": 26,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
+    },
+    {
+      "type": "sign",
+      "x": 6,
+      "y": 27,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
+    },
+    {
+      "type": "sign",
+      "x": 46,
+      "y": 8,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
+    },
+    {
+      "type": "sign",
+      "x": 7,
+      "y": 7,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
+    },
+    {
+      "type": "sign",
+      "x": 10,
+      "y": 41,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
+    },
+    {
+      "type": "sign",
+      "x": 18,
+      "y": 51,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
+    },
+    {
+      "type": "sign",
+      "x": 28,
+      "y": 51,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
+    },
+    {
+      "type": "sign",
+      "x": 43,
+      "y": 42,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
+    },
+    {
+      "type": "sign",
+      "x": 2,
+      "y": 47,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DELTARUNE_EventScript_Lol"
     }
   ]
 }

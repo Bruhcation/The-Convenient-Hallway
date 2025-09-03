@@ -8,6 +8,38 @@ DELTARUNE_EventScript_YouSavedBirch::
 	release
 	end
 
+DELTARUNE_EventScript_Naruto::
+	goto_if_set FLAG_NARUTO, DELTARUNE_EventScript_Guh
+	msgbox DELTARUNE_Text_Naruto, MSGBOX_DEFAULT
+	giveitem ITEM_EON_TICKET
+	setflag FLAG_NARUTO
+	msgbox DELTARUNE_Text_Naruto2, MSGBOX_DEFAULT
+	release
+	end
+
+DELTARUNE_EventScript_Guh::
+	msgbox DELTARUNE_Text_Naruto2, MSGBOX_DEFAULT
+	release
+	end
+
+DELTARUNE_Text_Naruto::
+	.string "Hello {PLAYER}!\n"
+	.string "I would like to introduce\l"
+	.string "you to this great book\l"
+	.string "I made called the WATER BLUE\l"
+	.string "A Book that serves to be\l"
+	.string "a retelling of the KANTORA.\p"
+	.string "Have a look$"
+
+DELTARUNE_Text_Naruto2::
+	.string "Oh woopsy daisy!\n"
+	.string "Such a epic gamer moment\l"
+	.string "on my part!\p"
+	.string ":laughing emoji:\p"
+	.string "...\p"
+	.string "Welp I forgot I was still\n"
+	.string "working on the book...$"
+
 DELTARUNE_EventScript_Stuff::
 	givemon SPECIES_QWILFISH, 60
 	giveitem ITEM_MASTER_BALL, 50
@@ -15,11 +47,65 @@ DELTARUNE_EventScript_Stuff::
 	setflag FLAG_FAZBAR
 	return
 
+DELTARUNE_EventScript_Lol::
+	msgbox DELTARUNE_Text_Sign, MSGBOX_SIGN
+	end
+
+DELTARUNE_EventScript_Egg::
+	msgbox DELTARUNE_Text_Egg, MSGBOX_SIGN
+	end
+
+DELTARUNE_EventScript_Man::
+	msgbox DELTARUNE_Text_Signs, MSGBOX_SIGN
+	end
+
+DELTARUNE_Text_Egg::
+	.string "Egg.....$"
+
+DELTARUNE_Text_Signs::
+	.string "The link to hell,\n"
+	.string "80 People liked this.$"
+
+DELTARUNE_Text_Sign::
+	.string "It's Closed\p"
+	.string "Nothing's ever open in\n"
+	.string "MODERN DAY POKEMON TOWNS$"
+
+
 DELTARUNE_Text_GET::
 	.string "There's this myth about the\n"
-	.string "ONE PIECE.\l"
-	.string "It's apprently in this\l"
-	.string "Town, But idk where.\l"
-	.string "If you want, you can\l"
+	.string "ONE PIECE.\p"
+	.string "It's apprently in this\n"
+	.string "Town, But idk where.\p"
+	.string "Since it's raining, the town\n"
+	.string "is closed.\p"
+	.string "If you want, you can\n"
 	.string "hunt for it!$"
+
+DELTARUNE_EventScript_Guard::
+	msgbox DELTARUNE_Text_Guard, MSGBOX_DEFAULT
+	waitmessage
+	goto_if_set FLAG_NARUTO, DELTARUNE_EventScript_Guard2
+	release
+	end
+
+DELTARUNE_EventScript_Guard2::
+	msgbox DELTARUNE_Text_Guard2, MSGBOX_DEFAULT
+	waitmessage
+	setflag FLAG_GUARD
+	fadescreen FADE_TO_BLACK
+	removeobject LOCALID_MAN
+	fadescreen FADE_FROM_BLACK
+	release
+	end
+
+
+DELTARUNE_Text_Guard::
+	.string "Oh no I'm thristy...\n"
+	.string "Sorry I'm guarding this,\l"
+	.string "too dangerous for the public.$"
+
+DELTARUNE_Text_Guard2::
+	.string "Oh, that looks appealing...\p"
+	.string "I'll take that off your hands!$"
 `
